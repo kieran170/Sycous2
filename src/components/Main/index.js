@@ -3,7 +3,6 @@ import axios from 'axios'
 import { Grid, Typography, Button, FormControl, InputLabel, Select, MenuItem } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
 import ReactPaginate from 'react-paginate';
-import './index.css'
 
 
   const useStyles = makeStyles((theme) => ({
