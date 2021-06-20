@@ -1,0 +1,11 @@
+.footer {
+    display: inline-flex;
+    background-color: #e3e1e2;
+    justify-content: space-around;
+  }
+  .footer-h2 {
+    font-size: 45px;
+  }
+  .footer-p {
+    font-size: 25px;
+  }
