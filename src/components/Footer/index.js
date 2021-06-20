@@ -1,21 +1,14 @@
-
 import React from "react";
-import './index.css'
 import facebook from '../../assets/facebook.png'
 import instagram from '../../assets/instagram.png'
 import twitter from '../../assets/twitter.png'
 import youtube from '../../assets/youtube.png'
 import {Grid, Typography} from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
-const useStyles = makeStyles((theme) => ({
-  
-}));
 
 export default function Footer() {
 
-  const classes = useStyles();
   return (
     <Grid container md={12} style={{backgroundColor: '#e3e1e2'}}>
       <Grid md={2}></Grid>
